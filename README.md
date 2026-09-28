@@ -1,5 +1,7 @@
 # V8 — Hardware-Attested AI Agent Runtime
 
+[![Verify public showcase](https://github.com/vladislavnaidenkopro-code/hardware-attested-ai-agent-runtime/actions/workflows/verify.yml/badge.svg)](https://github.com/vladislavnaidenkopro-code/hardware-attested-ai-agent-runtime/actions/workflows/verify.yml)
+
 Public technical showcase of a security architecture for high-trust AI-agent execution using confidential computing, measurement-bound secret access, fail-closed trust decisions, and tamper-evident audit evidence.
 
 > **Status:** V8.0 is the frozen verified baseline represented by this showcase. V8.1 productization work continues privately and is not presented here as released functionality.
@@ -72,6 +74,10 @@ This repository does not include:
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) — public-safe development direction
 - [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) — what a reviewer can reproduce from this repository
 - [`SECURITY.md`](SECURITY.md) — disclosure and security policy
+
+## Public showcase release
+
+The curated public snapshot is published as [`showcase-v8.0-20260928`](https://github.com/vladislavnaidenkopro-code/hardware-attested-ai-agent-runtime/releases/tag/showcase-v8.0-20260928). This tag identifies the public showcase, not the private V8.0 implementation repository.
 
 ## Non-claims
 
