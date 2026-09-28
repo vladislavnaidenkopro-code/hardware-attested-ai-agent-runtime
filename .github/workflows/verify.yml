@@ -1,0 +1,21 @@
+name: Verify public showcase
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify public commitment manifest
+        run: python tools/verify_public_manifest.py evidence/HASH_COMMITMENTS.json
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
