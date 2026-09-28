@@ -1,0 +1,10 @@
+*.pem
+*.key
+*.env
+.env*
+*.cloudtrail-acquisition.json
+*.log
+raw-evidence/
+private/
+*.zip
+*.tar.gz
