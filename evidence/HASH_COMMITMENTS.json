@@ -1,0 +1,15 @@
+{
+  "schema": "v8-public-hash-commitments-1",
+  "release_binding_sha256": "ec89d359be50c1016012aebe6142cbaf97cb809e44066b0238924f37afef2048",
+  "verified_code_sha": "c3b57fcedca3793ffed0b624c501f3ac1ba1b656",
+  "cloudtrail_digest_chain_sha256": "27411e5ab8bd5b11ccf844457ceea0630197e395619b3e692d4f47b1055b506c",
+  "event_membership_sha256": "702c6565210bd2c5354568711217047a017dafef62efd625419bba41342d3c8f",
+  "non_claims": [
+    "production readiness",
+    "certification",
+    "SLA",
+    "universal attack prevention",
+    "customer security outcomes",
+    "exactly-once external delivery"
+  ]
+}
